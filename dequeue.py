@@ -5,6 +5,11 @@ class Deque:
     """ Dequeue is common usage of Stack and Queue in the same data structure.
     Items can be added both beginning and end of dequeue.
     Items can be removed both beginning and end of dequeue.
+
+    Example Usage Scenario: Palindrome Checker is a great example.
+    ( bastan ve sondan okunusu ayni olan sozcuklerin tespitinde bu veri yapisi kullanilir.
+      Bastan ve sondan bir harf alinarak kiyaslanir.
+      Esitlik sona kadar devam ederse palidrom oldugu tespit edilir.)
     """
     def __init__(self):
         self.items = []
